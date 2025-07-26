@@ -1,5 +1,3 @@
-# Futuristic Style Guide
-
 <div class="guide-container">
   <div class="hex-grid"></div>
   <div class="header">
