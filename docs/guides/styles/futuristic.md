@@ -1,50 +1,54 @@
-<div class="guide-container">
-  <div class="hex-grid"></div>
-  <div class="header">
-    <h1>FUTURISTIC GUIDE</h1>
-    <div class="tech-line"></div>
-  </div>
+# Futuristic Guide
 
-  <div class="tech-grid">
-    <div class="tech-card" data-augmented>
-      <div class="card-frame"></div>
-      <div class="card-content">
-        <div class="tech-icon">⚡</div>
-        <h3>Neural Interface</h3>
-        <p>Advanced human-machine interaction</p>
-      </div>
-      <div class="card-overlay"></div>
+<template>
+  <div class="guide-container">
+    <div class="hex-grid"></div>
+    <div class="header">
+      <h1>FUTURISTIC GUIDE</h1>
+      <div class="tech-line"></div>
     </div>
-    <div class="tech-card" data-augmented>
-      <div class="card-frame"></div>
-      <div class="card-content">
-        <div class="tech-icon">🔮</div>
-        <h3>Quantum Core</h3>
-        <p>Next-gen processing power</p>
+
+    <div class="tech-grid">
+      <div class="tech-card" data-augmented>
+        <div class="card-frame"></div>
+        <div class="card-content">
+          <div class="tech-icon">⚡</div>
+          <h3>Neural Interface</h3>
+          <p>Advanced human-machine interaction</p>
+        </div>
+        <div class="card-overlay"></div>
       </div>
-      <div class="card-overlay"></div>
+      <div class="tech-card" data-augmented>
+        <div class="card-frame"></div>
+        <div class="card-content">
+          <div class="tech-icon">🔮</div>
+          <h3>Quantum Core</h3>
+          <p>Next-gen processing power</p>
+        </div>
+        <div class="card-overlay"></div>
+      </div>
+      <div class="tech-card" data-augmented>
+        <div class="card-frame"></div>
+        <div class="card-content">
+          <div class="tech-icon">🌐</div>
+          <h3>Holo Display</h3>
+          <p>3D projection interface</p>
+        </div>
+        <div class="card-overlay"></div>
+      </div>
     </div>
-    <div class="tech-card" data-augmented>
-      <div class="card-frame"></div>
-      <div class="card-content">
-        <div class="tech-icon">🌐</div>
-        <h3>Holo Display</h3>
-        <p>3D projection interface</p>
+
+    <div class="data-stream">
+      <div class="stream-content">
+        <div class="data-line">INITIALIZING NEURAL NETWORK</div>
+        <div class="data-line">QUANTUM PROCESSORS ONLINE</div>
+        <div class="data-line">ESTABLISHING SECURE CONNECTION</div>
       </div>
-      <div class="card-overlay"></div>
     </div>
   </div>
+</template>
 
-  <div class="data-stream">
-    <div class="stream-content">
-      <div class="data-line">INITIALIZING NEURAL NETWORK</div>
-      <div class="data-line">QUANTUM PROCESSORS ONLINE</div>
-      <div class="data-line">ESTABLISHING SECURE CONNECTION</div>
-    </div>
-  </div>
-</div>
-
-<style>
+<style scoped>
 .guide-container {
   position: relative;
   padding: 2rem;
@@ -174,4 +178,3 @@
   100% { opacity: 1; }
 }
 </style>
-</div>
